@@ -1,7 +1,7 @@
 import React from "react";
 // import { FaBeer, FaIceCream, FaUser } from "react-icons/fa";
 import "./AboutUs.css";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 
 const AboutUs = () => {
   return (
