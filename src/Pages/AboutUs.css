@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* div{ */
+    /* color: #AD92C5; */
+    /* color: #fff;
+    background-color: #624175; */
+    /* background-color: #4c325b; */
+/* } */
+
+.AboutUsPage{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.beerIcon{
+    font-size: 20px;
+    color: rgb(161, 161, 232);
+}
+
+.ExperienceSection{
+    background-color: #5E3F72;
+    
+}
+

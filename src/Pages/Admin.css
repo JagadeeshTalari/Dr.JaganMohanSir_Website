@@ -1,0 +1,76 @@
+.AdminContainer {
+  margin-left: -7vw;
+  padding: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.sidebar__sidebar {
+  width: 20%;
+  background-color: rgb(59, 74, 69);
+  color: #fff;
+  height: 91vh;
+  font-weight: 600;
+}
+
+.sidebar__main {
+  /* Take the remaining width */
+  flex: 1;
+  background-color: rgb(180, 126, 230);
+  height: 91vh;
+  padding: 25px;
+  /* color: #fff; */
+  /* Make it scrollable */
+  /* overflow: auto; */
+  overflow-y: scroll;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  /* Border */
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.menu:first-child {
+  padding-top: 0px;
+}
+
+.menu__item {
+  /* Center the content horizontally */
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  background-color: rgb(41, 55, 50);
+}
+
+.active {
+  text-decoration: none;
+}
+
+.active .menu__item {
+  background-color: #f7f7f7;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu__hotkey {
+  /* Push the hot key to the right */
+  margin-left: auto;
+}
+
+.menu__divider {
+  border-bottom: 1px solid #d1d5db;
+  height: 1px;
+}
