@@ -9,7 +9,7 @@
 .verticleLine {
   width: 2px;
   background-color: #000;
-  height: calc(inherit - 10px);
+  /* height: calc(inherit - 10px); */
 }
 form {
   width: 40%;
