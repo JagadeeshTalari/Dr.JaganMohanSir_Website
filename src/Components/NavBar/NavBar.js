@@ -18,13 +18,13 @@ const NavBar = () => {
           <li>
             <NavLink to="/contactus">ContactUs</NavLink>
           </li>
-          <li class="rmenu">
+          <li className="rmenu">
             <NavLink to="/userlogin">Login</NavLink>
           </li>
-          <li class="rmenu">
+          <li className="rmenu">
             <NavLink to="/admin">Admin</NavLink>
           </li>
-          <li class="rmenu">
+          <li className="rmenu">
             <NavLink to="/userregistration">User Registration</NavLink>
           </li>
         </ul>
